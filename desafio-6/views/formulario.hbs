@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Producto</title>
+</head>
+<body>
+  <h1>Formulario de Producto</h1>
+  <form action="/guardar-producto" method="post">
+    <label for="nombre">Nombre del producto:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="precio">Precio del producto:</label>
+    <input type="number" id="precio" name="precio" step="0.01" required>
+
+    <button type="submit">Guardar Producto</button>
+  </form>
+</body>
+</html>
